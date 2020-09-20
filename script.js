@@ -1,0 +1,19 @@
+$(document).ready(function(){
+    $("#form").validate({
+        rules:{
+            fname:{
+                required:true,
+                minlength:4
+            },
+            emailAddress:{
+                required:true,
+                email:true
+            },
+            mobile:{
+                required:true,
+                number:true
+            }
+         
+        }
+    })
+})

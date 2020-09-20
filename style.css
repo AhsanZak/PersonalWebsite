@@ -1,0 +1,163 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+    color: #505962;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    background-color: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand{
+    padding-left: 5rem;
+    height : 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:  rgb(0, 255, 200);;
+}
+
+.home-inner{
+    background-image: url("landingimg.jpeg");
+}
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.caption h2{
+    font-size : 3.1rem;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem whitesmoke; 
+}
+.caption h4{
+    font-size: 2rem;
+    font-weight: 150rem;
+    letter-spacing: 0.1rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem gray;
+}
+
+#about {
+    background-color: black;
+}
+.img-fluid{
+    max-width: 50%;
+    height: auto;
+}
+.row{
+    padding-top: 5rem;
+    justify-content: space-evenly;
+    align-items: ;
+}
+#rows {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.card{
+    padding: 3rem;
+    background-color: black;
+}
+.card-text{
+    color: rgb(0, 255, 200); 
+}
+.about-content{
+    justify-content: center!important;
+    align-items: center!important;
+}
+.about-content button{
+
+    width: 13em;
+    height: 2.8em;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    outline: none;
+    margin: none;
+}
+.hire-btn{
+    border: 2px solid  rgb(0, 255, 200);
+    color:  rgb(0, 255, 200);
+    background-color: black;
+}
+.down-btn{
+    border: none;
+    color: black;
+    background-color:  rgb(0, 255, 200);
+}
+button:active{
+    transform: scale(1.02);
+}
+
+.form-control{
+    background-color: black;
+    border-color:  rgb(0, 255, 200);
+}
+.form button{
+    align-items: center;
+}
+.btn-primary {
+    align-items: center!important;
+    justify-content: center!important;
+    color: rgb(0, 255, 200);
+    background-color: black;
+    border-color: rgb(0, 255, 200);
+}
+.btn-primary:hover{
+    background-color:rgb(0, 255, 200)!important;
+    color: black!important;
+}
+
+#contact{
+    background-image: url("Contact.jpg")!important;
+    background-position: center;
+    height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*-------------------------------------------------------*/
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    border-radius:50%;
+}
+.social-icons i{
+    color: white;
+}
+.social-icons a:hover{
+    background-color: #000000;
+    transition: all ease 0.5s;
+}
+.social-icons a:hover i{
+    color: rgb(0, 255, 200);
+    transition: all ease 0.5s;
+}
+.social-icons p{
+    color:  rgb(0, 255, 200);
+}
+.footer{
+    background-color: black!important;
+}
